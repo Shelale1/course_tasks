@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+h1{
+
+	font-size: 30px;
+}
+body{
+	font-family: "Roboto", serif;
+}
+.form-block{
+
+margin: 80px auto;
+max-width: 500px;
+background-color: rgb(68, 68, 95);
+padding: 40px 40px;
+border-radius: 10px;
+	
+}
+
+.form-block form{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 20px;	
+}
+.form-block form input{
+	border-radius: 5px;
+	border: none;
+	width: 200px;
+	height: 40px;
+	color: black;
+}
+.form-block form input[type="submit"]{ 
+	width: 100px;
+	background-color: #fff;
+	font-weight: 600;
+	color: rgb(68, 68, 95);	
+	
+}
+.form-block form input[type="submit"]:hover{ 
+	width: 100px;
+	background-color:  rgb(68, 68, 95);
+	font-weight: 600;
+	color: #fff;
+	border: 1px solid #fff ;
+	transition: .3s ease-in-out ;
+		
+}
+
+
+textarea{
+	border-radius: 5px;
+	width: 300px;
+}
+.form-block form textarea::placeholder{
+	padding: 12px;
+	font-family: "Roboto", serif;
+	color: rgba(0, 0, 0, 0.505);
+}
