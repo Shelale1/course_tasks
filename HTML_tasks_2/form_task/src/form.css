@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 80px;
+}
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 550px;
+  padding: 20px 70px 40px 50px;
+}
+
+.form-container h1 {
+padding-top: 20px;
+}
+.form-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group .hobbies {
+  display: flex;
+  max-width: 300px;
+  align-items: left;
+  margin-top: 15px;
+}
+.form-group .gender {
+	margin-top: 15px;
+  display: flex;
+  max-width: 170px;
+  justify-content: center;
+}
+.form-group .hobbies label,
+.form-group .hobbies input {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.form-group .gender label,
+.form-group .hobbies input {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.form-group textarea {
+  resize: none;
+  height: 80px;
+}
+.form-group .gender input,
+.form-group .hobbies input {
+  margin-right: 5px;
+}
+.form-group .range {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.form-group .range input {
+  flex: 1;
+}
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #0056b3;
+}

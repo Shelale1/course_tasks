@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="../src/form.css" />
+  <body>
+    <section>
+      <div class="form-container">
+        <h1>Registration Form</h1>
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter your age" />
+          </div>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" />
+          </div>
+          <div class="form-group">
+            <label>Gender</label>
+            <div class="gender">
+              <input type="radio" name="gender" value="male" />
+              <label> Male</label>
+              <input type="radio" name="gender" value="female" />
+              <label>Female</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Hobbies</label>
+            <div class="hobbies">
+              <input type="checkbox" value="reading" /> <label>Reading</label>
+              <input type="checkbox" value="traveling" /><label>
+                Traveling</label
+              >
+              <input type="checkbox" value="sports" /> <label>Sports</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country">
+              <option>--Select your country--</option>
+              <option>Canada</option>
+              <option>Italy</option>
+              <option>Sweeden</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="feedback">Feedback</label>
+            <textarea
+              id="feedback"
+              placeholder="Write your feedback"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label>Satisfaction Level</label>
+            <div class="range">
+              <input type="range" min="0" max="100" value="20" />
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

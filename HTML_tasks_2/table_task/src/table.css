@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+.table-container {
+  margin: 70px auto;
+  max-width: 1100px;
+}
+
+.table-container table {
+  border: 1px solid rgba(73, 72, 72, 0.071);
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr:first-child th {
+  background-color: #daf3e0;
+}
+table tr:first-child th:first-child {
+  background-color: #e2e1ff;
+}
+table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+table tr:nth-child(7) th {
+  background-color: #f4f4f4;
+}
+
+.table-container table tr,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  text-align: center;
+  border-collapse: collapse;
+  padding: 10px 20px;
+}
